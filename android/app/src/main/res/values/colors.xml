@@ -2,5 +2,6 @@
 <resources>
     <!-- Brand blue sampled from assets/icon/app_icon.png -->
     <color name="ic_launcher_background">#056BC2</color>
-    <color name="launch_background">#000000</color>
+    <!-- Matches BrandColors.surface so there is no flash before the Flutter UI paints. -->
+    <color name="launch_background">#FFFFFF</color>
 </resources>
